@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.header {
+  font-family: 'Lobster';
+  color: #0f172a;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px;
+}
+.language-list-container {
+  list-style-type: none;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
